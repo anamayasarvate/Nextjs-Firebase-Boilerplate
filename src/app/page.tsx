@@ -8,7 +8,6 @@ const HomePage = () => {
         <Link href="/dashboard">
           <p className="btn btn-ghost normal-case text-xl">Dashboard</p>
         </Link>
-        <Link href="/firebase">Firebase Connection</Link>
       </div>
     </>
   );
