@@ -4,11 +4,12 @@ import Link from "next/link";
 const HomePage = () => {
   return (
     <>
-      <Link href="/dashboard">
-        <div className="navbar bg-base-100 justify-center">
+      <div className="navbar bg-base-100 justify-center">
+        <Link href="/dashboard">
           <p className="btn btn-ghost normal-case text-xl">Dashboard</p>
-        </div>
-      </Link>
+        </Link>
+        <Link href="/firebase">Firebase Connection</Link>
+      </div>
     </>
   );
 };
